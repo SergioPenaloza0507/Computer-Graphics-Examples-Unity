@@ -60,6 +60,10 @@ crashlytics-build.properties
 
 #External packages not allowed to be shared
 Assets/Day-Night Skyboxes
+Day-Night Skyboxes.meta
 Assets/Hierarchy 2
+Hierarchy 2.meta
 Assets/LeanTween
+LeanTween.meta
 Assets/TextMesh Pro
+TextMesh Pro.meta

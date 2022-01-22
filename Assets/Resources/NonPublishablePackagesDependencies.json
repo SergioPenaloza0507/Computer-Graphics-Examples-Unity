@@ -1,14 +1,14 @@
 ﻿{
   "Day-Night Skyboxes" : {
     "url" : "https://assetstore.unity.com/packages/2d/textures-materials/sky/10-skyboxes-pack-day-night-32236",
-    "projectRootPath" : "Assets/Day-Night Skyboxes"
+    "projectRootPath" : "Day-Night Skyboxes"
   },
   "Hierarchy 2" : {
     "url" : "https://assetstore.unity.com/packages/tools/utilities/hierarchy-2-166483",
-    "projectRootPath" : "Assets/Hierarchy 2"
+    "projectRootPath" : "Hierarchy 2"
   },
   "LeanTween" : {
     "url" : "https://assetstore.unity.com/packages/tools/animation/leantween-3595",
-    "projectRootPath" : "Assets/LeanTween"
+    "projectRootPath" : "LeanTween"
   }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using Newtonsoft.Json;
 using NonPublishablePackages.UI;
 using UnityEditor;
@@ -47,8 +48,8 @@ namespace NonPublishablePackages
 
         private static bool CheckExtraPackageIntegrity(string path)
         {
-            bool result = AssetDatabase.IsValidFolder(path);
-            return result;
+            string p = Application.dataPath + "/" + path;
+            return Directory.Exists(p);
         }
         
         private static void LoadDependencyRegistry()
