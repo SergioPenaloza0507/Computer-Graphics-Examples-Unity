@@ -15,7 +15,7 @@ To use this tool you'll need to:
 ## Presentations
 Since this is an educational project, I make available the presentations used in each study session.
 
-Current languages available:
+Current available languages:
 
 * [Spanish](Presentations/)
 
