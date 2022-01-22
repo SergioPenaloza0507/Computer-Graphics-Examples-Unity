@@ -12,3 +12,10 @@ To use this tool you'll need to:
 * download the package from the asset store for each package that shows up in RED
 ![image](https://user-images.githubusercontent.com/50851215/150654198-6732a1e9-3fd1-4ef0-8366-c2e645dccf1a.png)
 
+## Presentations
+Since this is an educational project used inside a university course, I make available the presentations used in each class.
+
+Current languages available:
+
+* [Spanish](Presentations/)
+
