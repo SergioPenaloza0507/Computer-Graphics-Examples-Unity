@@ -2,7 +2,7 @@
 A collection of computer graphics and VFX realted examples made in Unity
 
 ## Before you start
-Because of copyright reasons I cannot share the majority of the extra packages I'm using in this project. However, this project has its own dependency checker tool so you can download the packages yourself.
+Due to copyright reasons I cannot share the majority of the extra packages I'm using in this project. However, this project has its own dependency checker tool so you can download the packages yourself.
 
 To use this tool you'll need to:
 
