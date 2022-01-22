@@ -1302,6 +1302,22 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3423361283701787993, guid: 59340125f760ef04c9bfccf9ee395511, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3822837295837952620, guid: 59340125f760ef04c9bfccf9ee395511, type: 3}
+      propertyPath: m_text
+      value: 'Function evaluation example:
+
+
+        Go to <color=green><b>TrajectoryCurve.cs</b></color>
+        to view the code examples.
+
+
+        Press <color=#99f8ff>Space</color> to
+        jumpstart the effect'
+      objectReference: {fileID: 0}
     - target: {fileID: 4706360548740094857, guid: 59340125f760ef04c9bfccf9ee395511, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
