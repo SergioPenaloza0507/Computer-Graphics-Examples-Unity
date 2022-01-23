@@ -14,6 +14,7 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Resources/NonPublishablePackagesDependencies.json" />
       <option value="$PROJECT_DIR$/Assets/NonPublishablePackages/Scripts/Editor/NonPublishablePackagesObserver.cs" />
+      <option value="$PROJECT_DIR$/Assets/Plugins/NonPublishablePackages/Scripts/Editor/NonPublishablePackagesObserver.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="244fg4TvTpSP6Cg94y9Ir0hOMRD" />
@@ -62,6 +63,7 @@
       <workItem from="1642894894338" duration="876000" />
       <workItem from="1642896223745" duration="736000" />
       <workItem from="1642906109327" duration="18000" />
+      <workItem from="1642961542484" duration="75000" />
     </task>
     <servers />
   </component>

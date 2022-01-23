@@ -11,7 +11,7 @@ namespace NonPublishablePackages
     [InitializeOnLoad]
     public class NonPublishablePackagesObserver
     {
-        private const string DEPENDENCY_REGISTRY_PATH = "NonPublishablePackagesDependencies";
+        private const string DEPENDENCY_REGISTRY_PATH = "Resources/NonPublishablePackagesDependencies.json";
 
         private static Dictionary<string, NonPublishableregistry> loadedRegistries;
 
@@ -54,9 +54,9 @@ namespace NonPublishablePackages
         
         private static void LoadDependencyRegistry()
         {
-            string json = Resources.Load<TextAsset>(DEPENDENCY_REGISTRY_PATH).text;
+            using StreamReader stream = new StreamReader($"{Application.dataPath}/{DEPENDENCY_REGISTRY_PATH}");
+            string json = stream.ReadToEnd();
             loadedRegistries = JsonConvert.DeserializeObject<Dictionary<string, NonPublishableregistry>>(json);
-            //Debug.Log($"Registry Loaded: {JsonConvert.SerializeObject(loadedRegistries, Formatting.Indented)}");
         }
     }
 }
