@@ -14,22 +14,19 @@ namespace NonPublishablePackages.UI
         [MenuItem("Window/Non Publishable Dependencies")]
         public static void ShowWindow()
         {
-            if (currentWindow == null)
+            if (currentWindow != null)
             {
-                currentWindow = GetWindow(typeof(NonPublishablePackagesWindow),true, "Extra packages") as NonPublishablePackagesWindow;
-                currentWindow.maxSize = new Vector2(600, currentWindow.maxSize.y);
-                currentWindow.minSize = new Vector2(600, currentWindow.minSize.y);
+                currentWindow.Close();
             }
+            
+            currentWindow = GetWindow(typeof(NonPublishablePackagesWindow),true, "Extra packages") as NonPublishablePackagesWindow;
+            currentWindow.maxSize = new Vector2(600, currentWindow.maxSize.y);
+            currentWindow.minSize = new Vector2(600, currentWindow.minSize.y);
+            NonPublishablePackagesObserver.CheckExtraPackagesIntegrity();
         }
 
         private void OnGUI()
         {
-            // GUILayout.Label(
-            //     "Here you can check if you have all the necessary extra packages required for this project, have in mind that the project can still work without some packages",
-            //     GUILayout.Width(position.width),
-            //     GUILayout.Height(80),
-            //     GUILayout.ExpandWidth(true)
-            // );
             string title =
                 "Here you can check if you have all the necessary extra packages required\n for this project. have in mind that the project can still work without\n some packages";
             GUILayout.BeginArea(new Rect(10,10,position.width - 30, 100));

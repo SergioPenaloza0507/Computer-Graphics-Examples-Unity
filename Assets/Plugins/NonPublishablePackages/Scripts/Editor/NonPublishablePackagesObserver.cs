@@ -19,14 +19,24 @@ namespace NonPublishablePackages
 
         public static Dictionary<string, bool> RegistryState => registryState;
         public static Dictionary<string, NonPublishableregistry> LoadedRegistries => loadedRegistries;
+
+        private static bool initialized = false;
+        
         static NonPublishablePackagesObserver()
         {
+            EditorApplication.update += OneTimeInitialize;
+        }
+
+        private static void OneTimeInitialize()
+        {
+            if(initialized) return;
+            initialized = true;
             if (!CheckExtraPackagesIntegrity())
             {
                 NonPublishablePackagesWindow.ShowWindow();
             }
         }
-
+        
         public static bool CheckExtraPackagesIntegrity()
         {
             LoadDependencyRegistry();
