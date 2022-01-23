@@ -5,7 +5,7 @@ A collection of computer graphics and VFX realted examples made in Unity
 Due to copyright reasons I cannot share the majority of the extra packages I'm using in this project. However, this project has its own dependency checker tool so you can download the packages yourself.
 
 To use this tool you'll need to:
-* **Don't** open the project in save mode, select ignore (compile errors)
+* **Don't** open the project in safe mode, select ignore (compile errors)
 * Go to `Window/Non Publishable Dependencies`
 * Click on `Refresh`
 * Click on `Download`
