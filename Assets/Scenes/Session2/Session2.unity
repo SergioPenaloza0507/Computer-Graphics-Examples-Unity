@@ -1308,14 +1308,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3822837295837952620, guid: 59340125f760ef04c9bfccf9ee395511, type: 3}
       propertyPath: m_text
-      value: 'Function evaluation example:
+      value: 'Function evaluation:
 
 
         Go to <color=green><b>TrajectoryCurve.cs</b></color>
-        to view the code examples.
+        to view the code.
 
 
-        Press <color=#99f8ff>Space</color> to
+        Press <color=#99f8ff><b>Space</b></color> to
         jumpstart the effect'
       objectReference: {fileID: 0}
     - target: {fileID: 4706360548740094857, guid: 59340125f760ef04c9bfccf9ee395511, type: 3}
