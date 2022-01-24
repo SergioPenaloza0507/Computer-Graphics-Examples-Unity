@@ -13,7 +13,7 @@ To use this tool you'll need to:
 ![image](https://user-images.githubusercontent.com/50851215/150654198-6732a1e9-3fd1-4ef0-8366-c2e645dccf1a.png)
 
 ## Presentations
-Since this is an educational project, I make available the presentations used in each study session.
+Since this is an educational project, some presentations explaining basic concepts are included in this project
 
 Current available languages:
 
