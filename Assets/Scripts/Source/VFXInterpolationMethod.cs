@@ -1,9 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public enum VFXInterpolationMethod
+namespace VFX
 {
-    StateMachine,
-    Coroutine
+    /// <summary>
+    /// Definition for interpolation mode options for a VFX
+    /// </summary>
+    public enum VFXInterpolationMethod
+    {
+        StateMachine,
+        Coroutine
+    }
 }
