@@ -559,7 +559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1376611203}
   m_Layer: 0
-  m_Name: $hCameras
+  m_Name: --->Cameras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -827,7 +827,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2002225831}
   m_Layer: 0
-  m_Name: $hEnvironment
+  m_Name: --->Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
