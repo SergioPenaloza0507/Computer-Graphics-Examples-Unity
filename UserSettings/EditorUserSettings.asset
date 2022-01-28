@@ -6,34 +6,34 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedScenePath-0:
-      value: 2242470311464677080f021607265a1e5932002b21382a353e663c21e1e83d2ee7e379dde2292b353705dd350337053dfd0e1028c5451f05181ae4
-      flags: 0
-    RecentlyUsedScenePath-1:
       value: 2242470311464677080f021607265a1e5932002b21382a353e663c21e1e83d2ee7e379c6eb3e18091027f73d092e0d3ae1293a45e305031f08
       flags: 0
-    RecentlyUsedScenePath-2:
+    RecentlyUsedScenePath-1:
       value: 2242470311464677080f021607265a1e5932002b21382a353e662e30e7ee312badc139e5eb3528353705a1290a371526
       flags: 0
-    RecentlyUsedScenePath-3:
+    RecentlyUsedScenePath-2:
       value: 2242470311464677080f021607265a1e5932002b21382a353e662e30e7ee312badc033e7e2283e301b03fc3507701431fb1e10
       flags: 0
-    RecentlyUsedScenePath-4:
+    RecentlyUsedScenePath-3:
       value: 2242470311464677080f021607265a1e5932002b21382a353e662e30e7ee312badc033e7e2283e301a03e239163f3237f3010c45e305031f08
       flags: 0
-    RecentlyUsedScenePath-5:
+    RecentlyUsedScenePath-4:
       value: 2242470311464677080f021607265a1e5932002b21382a353e662e30e7ee312badc033e7e2283e301c03fc350a393526e20f1a45e305031f08
       flags: 0
-    RecentlyUsedScenePath-6:
+    RecentlyUsedScenePath-5:
       value: 22424703114646680e0b0227036c6c1118131a25340a272328662e32ece41637fac537fae2742a323016f6
       flags: 0
-    RecentlyUsedScenePath-7:
+    RecentlyUsedScenePath-6:
       value: 22424703114646680e0b0227036c6c111b07142f1f2b233e2867083debf42d
       flags: 0
-    RecentlyUsedScenePath-8:
+    RecentlyUsedScenePath-7:
       value: 22424703114646680e0b0227036c6c1d191c1d0f34292b20212c2e32ece43637faa805e4e8313a192103e22c083b323efc0e0b04ee451f05181ae4
       flags: 0
-    RecentlyUsedScenePath-9:
+    RecentlyUsedScenePath-8:
       value: 22424703114646680e0b0227036c7e1e1f1a193e25272813383b0b36c7f63534f7e622e0e8340c3d3706ed331c712031fb07081fff040428041ceb0b34e9111f04c40ccc15c65109c51008d7
+      flags: 0
+    RecentlyUsedScenePath-9:
+      value: 22424703114646680e0b0227036c0c350e120a29253b236108311c3ef2ec3177c7ff33fbe4332c396827f73d092e0d3abc1f0702e212
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
