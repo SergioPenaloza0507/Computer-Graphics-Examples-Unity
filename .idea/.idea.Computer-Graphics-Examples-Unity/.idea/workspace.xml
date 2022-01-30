@@ -18,6 +18,14 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/DummyTurret.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/ServiceLocator/ServiceLocator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/ProyectileDummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/ServiceLocator/ServiceLocatorUnsafeFallback.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session3.1Exercise/Exercise1Mechanic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/ServiceLocator/IService.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Resources/NonPublishablePackagesDependencies.json" />
@@ -26,6 +34,19 @@
       <option value="$PROJECT_DIR$/Assets/Plugins/NonPublishablePackages/Scripts/Editor/NonPublishablePackagesWindow.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Source/Exercises/EX1PaperColumn.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Source/VFXInterpolationMethod.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/ObjectPools/Spawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/ObjectPools/SpawnerSource.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/ObjectPools/SpawnerSharedStock.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/ServiceLocator/ServiceLocatorUnsafeFallback.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/ServiceLocator/IService.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/ServiceLocator/ServiceLocatorExtensions.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/ObjectPools/SpawnerSharedStock.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/ServiceLocator/ServiceLocator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/ObjectPools/SpawnerSource.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/ObjectPools/Spawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/ProyectileDummy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/DummyTurret.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session3.1Exercise/Exercise1Mechanic.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -82,6 +103,8 @@
       <workItem from="1642961660988" duration="2377000" />
       <workItem from="1643160185154" duration="2119000" />
       <workItem from="1643396973928" duration="2699000" />
+      <workItem from="1643514074647" duration="3335000" />
+      <workItem from="1643556447411" duration="8872000" />
     </task>
     <servers />
   </component>
