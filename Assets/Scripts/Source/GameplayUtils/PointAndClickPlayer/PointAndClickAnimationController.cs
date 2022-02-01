@@ -28,7 +28,7 @@ public class PointAndClickAnimationController : MonoBehaviour
         if (isMoving)
         {
             var position = transform.position;
-            currentSpeed = (position - lastPos).magnitude * 30f;
+            currentSpeed = (position - lastPos).magnitude / Time.deltaTime;
             anim.SetFloat(speed, currentSpeed);
             lastPos = position;
         }
