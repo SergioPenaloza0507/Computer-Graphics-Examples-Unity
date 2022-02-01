@@ -3,7 +3,8 @@ using UnityEngine;
 public class InputHandler : MonoBehaviour
 {
     [SerializeField] private bool controlSelfOnAwake;
-    
+    [SerializeField] private InputBinder binder;
+
     private GameObject controlledObject;
 
     private void Awake()
@@ -17,10 +18,10 @@ public class InputHandler : MonoBehaviour
     private void Update()
     {
         if (controlledObject == null) return;
-        QueryButton("Fire1", "Click");
+        binder.EvaluateBindings(this);
     }
 
-    private void QueryButton(string buttonName, string binding)
+    public void QueryButton(string buttonName, string binding)
     {
         if (Input.GetButtonDown(buttonName))
         {
