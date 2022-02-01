@@ -12,7 +12,7 @@ namespace Spawners
         [SerializeField] private Vector3 startPosition;
         [SerializeField] private bool initializeOnAwake;
         
-        private Dictionary<string, (GameObject,List<GameObject>)> localStock = new Dictionary<string, (GameObject,List<GameObject>)>();
+        private Dictionary<string, List<GameObject>> localStock = new Dictionary<string,List<GameObject>>();
         #endregion
 
         private void Awake()
@@ -25,9 +25,9 @@ namespace Spawners
 
         private void FillLocalStock()
         {
-            foreach (KeyValuePair<string,(GameObject,List<GameObject>)> pair in localStock)
+            foreach (KeyValuePair<string,List<GameObject>> pair in localStock)
             {
-                pair.Value.Item2?.Clear();
+                pair.Value.Clear();
             }
             
             localStock.Clear();
@@ -42,7 +42,7 @@ namespace Spawners
                     {
                         alloc.Add(Allocate(source.prefab));
                     }
-                    localStock.Add(source.nameId, (source.prefab, alloc));
+                    localStock.Add(source.nameId, alloc);
                 }
             }
         }
@@ -58,21 +58,21 @@ namespace Spawners
             Transform parent = null)
         {
             if (!localStock.ContainsKey(nameId)) return null;
-            (GameObject, List<GameObject>) pointedStock = localStock[nameId];
+            List<GameObject> pointedStock = localStock[nameId];
             try
             {
-                GameObject src = pointedStock.Item1;
-                if (pointedStock.Item2 == null)
+                GameObject src = sources.First(x => x.nameId == nameId).prefab;
+                if (pointedStock == null)
                 {
-                    pointedStock.Item2 = new List<GameObject>();
+                    pointedStock = new List<GameObject>();
                 }
 
 
-                GameObject ret = pointedStock.Item2.FirstOrDefault(x => !x.activeSelf);
+                GameObject ret = pointedStock.FirstOrDefault(x => !x.activeSelf);
                 if (ret == null)
                 {
                     ret = Allocate(src);
-                    pointedStock.Item2.Add(ret);
+                    pointedStock.Add(ret);
                 }
 
                 Transform retTransform = ret.transform;
@@ -93,13 +93,8 @@ namespace Spawners
             Transform parent = null) where TComponent : Component
         {
             if (!localStock.ContainsKey(nameId)) return null;
-            (GameObject, List<GameObject>) pointedStock = localStock[nameId];
-            if (pointedStock.Item1.TryGetComponent(out TComponent _))
-            {
-                return Spawn<TComponent>(nameId, position, rotation, scale, parent)?.GetComponent<TComponent>();
-            }
-
-            return null;
+            List<GameObject> pointedStock = localStock[nameId];
+            return Spawn<TComponent>(nameId, position, rotation, scale, parent)?.GetComponent<TComponent>();
         }
     }
 }

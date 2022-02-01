@@ -18,14 +18,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/DummyTurret.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/ServiceLocator/ServiceLocator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/ProyectileDummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/ServiceLocator/ServiceLocatorUnsafeFallback.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session3.1Exercise/Exercise1Mechanic.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/ServiceLocator/IService.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Resources/NonPublishablePackagesDependencies.json" />
@@ -105,6 +97,7 @@
       <workItem from="1643396973928" duration="2699000" />
       <workItem from="1643514074647" duration="3335000" />
       <workItem from="1643556447411" duration="8872000" />
+      <workItem from="1643661666781" duration="8189000" />
     </task>
     <servers />
   </component>
