@@ -25,10 +25,13 @@ namespace MOBAGame.Player
                 this.attackDuration = attackDuration;
             }
         }
+
+        [SerializeField] private ParticleSystem attackVFX;
         
         void Input_Attack_Q()
         {
             SendMessage("OnAttack", new AttackInfo(AttackType.Q, 1.5f), SendMessageOptions.DontRequireReceiver);
+            attackVFX.Play(true);
         }
     }
 }
