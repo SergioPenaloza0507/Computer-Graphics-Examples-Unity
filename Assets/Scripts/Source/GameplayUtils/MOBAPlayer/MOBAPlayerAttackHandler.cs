@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -28,8 +29,9 @@ namespace MOBAGame.Player
 
         [SerializeField] private ParticleSystem attackVFX;
         
-        void Input_Attack_Q()
+        void Input_Attack_Q(InputButtonInfo info)
         {
+            if (info.ButtonState != ButtonState.Press) return;
             SendMessage("OnAttack", new AttackInfo(AttackType.Q, 1.5f), SendMessageOptions.DontRequireReceiver);
             attackVFX.Play(true);
         }

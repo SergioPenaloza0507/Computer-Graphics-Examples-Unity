@@ -2293,24 +2293,24 @@ ParticleSystem:
           time: 0.26
           value: 0
           inSlope: 8.000008
-          outSlope: 0.018621419
+          outSlope: 0.14309503
           tangentMode: 69
           weightedMode: 0
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.56737745
+          time: 0.3
           value: 0.0057238042
-          inSlope: 0.018621419
-          outSlope: 20.475702
+          inSlope: 0.14309503
+          outSlope: 86.283035
           tangentMode: 69
           weightedMode: 0
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.6159363
+          time: 0.31152344
           value: 1
-          inSlope: 20.475702
+          inSlope: 86.283035
           outSlope: 0
           tangentMode: 69
           weightedMode: 0
@@ -5256,7 +5256,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &321941416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5900,8 +5900,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913536972}
-  m_LocalRotation: {x: -0.007237126, y: -0.9793459, z: 0.19884932, w: -0.035890996}
-  m_LocalPosition: {x: -0.7545353, y: 2.9300902, z: 5.7591524}
+  m_LocalRotation: {x: 0.43449816, y: -0.25354862, z: 0.12884808, w: 0.85458916}
+  m_LocalPosition: {x: 3.0639129, y: 9.079733, z: -3.2384887}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6091,7 +6091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9284d0be7ebddcd43ad2b700f6a5fea0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackVFX: {fileID: 1799066702}
+  attackVFX: {fileID: 10646766}
 --- !u!114 &1114072018
 MonoBehaviour:
   m_ObjectHideFlags: 0
