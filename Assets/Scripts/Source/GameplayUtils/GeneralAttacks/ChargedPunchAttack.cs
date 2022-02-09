@@ -1,55 +1,66 @@
+using System;
 using UnityEngine;
 
-public class ChargedPunchAttack : AttackControllerBase
+[RequireComponent(typeof(Animator))]
+public class ChargedPunchAttack : MonoBehaviour
 {
     enum State
     {
-        Waiting,
         Ready,
         Performing
     }
-    
+
     [SerializeField] private float duration;
+    [SerializeField] private float speed;
     [SerializeField] private float animationDuration;
     [SerializeField] private float cooldown;
-
+    [SerializeField] private PunchAttackVFX vfx;
+    
     private State state;
+    private float realSpeed;
+    private float realDuration;
     private float attackTimer;
-    private float cooldownTimer;
+    private Animator anim;
 
-    private void Update()
+    private void ComputeRealSpeed()
     {
-        if (state == State.Waiting)
+        realDuration = duration / speed;
+        realSpeed = realDuration / animationDuration;
+    }
+
+    private void OnValidate()
+    {
+        ComputeRealSpeed();
+    }
+
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
+
+    void Update()
+    {
+        switch (state)
         {
-            if (cooldownTimer > cooldown)
-            {
-                state = State.Ready;
-            }
-            cooldownTimer += Time.deltaTime;
+            case State.Ready:
+                if (Input.GetButtonDown("W"))
+                {
+                    state = State.Performing;
+                    vfx.Play();
+                    anim.SetTrigger("Attack_W");
+                }
+                break;
+            case State.Performing:
+                if (attackTimer > realDuration)
+                {
+                    state = State.Ready;
+                    attackTimer = 0;
+                }
+
+                attackTimer += Time.deltaTime;
+                break;
+            default:
+                throw new ArgumentOutOfRangeException();
         }
-    }
-
-    public override void InitAttack()
-    {
-        if (state != State.Ready) return;
-        attackTimer = 0;
-        state = State.Performing;
-    }
-
-    public override void SolveAttack()
-    {
-        if (state != State.Performing) return;
-        attackTimer += Time.deltaTime;
-        if (attackTimer > duration)
-        {
-            state = State.Waiting;
-            attackTimer = 0;
-        }
-    }
-
-    public override void EndAttack()
-    {
-        if (state != State.Performing) return;
-        state = State.Waiting;
     }
 }

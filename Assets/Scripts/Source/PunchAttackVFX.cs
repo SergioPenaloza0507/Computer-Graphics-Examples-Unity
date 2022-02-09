@@ -1,23 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
+using Cinemachine;
 using UnityEngine;
 
 public class PunchAttackVFX : MonoBehaviour
 {
     [SerializeField] private ParticleSystem particleSystem;
-    
+
     public void Play()
     {
-        
-    }
-    
-    public void Evaluate(float normalizedTime)
-    {
-        
+        particleSystem.Play(true);
     }
 
     public void Stop()
     {
-        
+        particleSystem.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
     }
 }
