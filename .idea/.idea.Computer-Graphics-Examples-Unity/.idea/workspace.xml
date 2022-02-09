@@ -20,7 +20,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerCameraManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/PunchAttackVFX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/AttackController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralAttacks/AttackControllerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralAttacks/ChargedPunchAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/ShieldVFX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerNotificationCenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralPurpuseIndicator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,13 +51,19 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session3.1Exercise/Exercise1Mechanic.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerCameraManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/Input/InputHandler.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerAttackHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerNotificationCenter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralPurpuseIndicator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/ShieldVFX.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/ShieldVFXGA.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/AttackController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralAttacks/AttackSolver.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralAttacks/IAttackController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerAnimationController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerAttackHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralAttacks/ChargedPunchAttack.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralAttacks/AttackControllerBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/PunchAttackVFX.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -122,6 +131,7 @@
       <workItem from="1644066589233" duration="2629000" />
       <workItem from="1644182949524" duration="2632000" />
       <workItem from="1644189597358" duration="55000" />
+      <workItem from="1644371153568" duration="4012000" />
     </task>
     <servers />
   </component>

@@ -50,8 +50,28 @@ namespace MOBAGame.Player
 
         public void OnAttack(MOBAPlayerAttackHandler.AttackInfo attackInfo)
         {
-            anim.SetTrigger("Attack_Q");
-            StartCoroutine(ResetTriggerAfterFrame("Attack_Q"));
+            switch (attackInfo.attackType)
+            {
+                case MOBAPlayerAttackHandler.AttackType.Q:
+                    anim.SetTrigger("Attack_Q");
+                    StartCoroutine(ResetTriggerAfterFrame("Attack_Q"));
+                    break;
+                case MOBAPlayerAttackHandler.AttackType.W:
+                    anim.SetTrigger("Attack_W");
+                    StartCoroutine(ResetTriggerAfterFrame("Attack_W"));
+                    break;
+                case MOBAPlayerAttackHandler.AttackType.E:
+                    anim.SetTrigger("Attack_E");
+                    StartCoroutine(ResetTriggerAfterFrame("Attack_E"));
+                    break;
+                case MOBAPlayerAttackHandler.AttackType.R:
+                    anim.SetTrigger("Attack_R");
+                    StartCoroutine(ResetTriggerAfterFrame("Attack_R"));
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+            
         }
 
         IEnumerator ResetTriggerAfterFrame(string triggerName)

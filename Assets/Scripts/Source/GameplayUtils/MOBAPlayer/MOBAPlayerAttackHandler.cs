@@ -7,6 +7,10 @@ namespace MOBAGame.Player
 {
     public class MOBAPlayerAttackHandler : MonoBehaviour
     {
+        [SerializeField] private AttackControllerBase qAttack;
+        [SerializeField] private AttackControllerBase wAttack;
+        [SerializeField] private AttackControllerBase eAttack;
+        [SerializeField] private AttackControllerBase rAttack;
         public enum AttackType
         {
             Q,
@@ -34,6 +38,11 @@ namespace MOBAGame.Player
             if (info.ButtonState != ButtonState.Press) return;
             SendMessage("OnAttack", new AttackInfo(AttackType.Q, 1.5f), SendMessageOptions.DontRequireReceiver);
             attackVFX.Play(true);
+        }
+
+        void Input_Attack_W(InputButtonInfo info)
+        {
+            
         }
     }
 }
