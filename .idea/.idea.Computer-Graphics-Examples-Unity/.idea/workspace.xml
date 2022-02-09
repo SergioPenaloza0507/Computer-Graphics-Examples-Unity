@@ -20,6 +20,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerCameraManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/AttackController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/ShieldVFX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerNotificationCenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralPurpuseIndicator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -50,6 +52,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerNotificationCenter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralPurpuseIndicator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/ShieldVFX.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/ShieldVFXGA.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/AttackController.cs" />
     </changedPaths>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -113,6 +118,10 @@
       <workItem from="1643762508432" duration="1141000" />
       <workItem from="1643806259551" duration="4449000" />
       <workItem from="1643825644660" duration="644000" />
+      <workItem from="1644022840062" duration="5828000" />
+      <workItem from="1644066589233" duration="2629000" />
+      <workItem from="1644182949524" duration="2632000" />
+      <workItem from="1644189597358" duration="55000" />
     </task>
     <servers />
   </component>
