@@ -23,6 +23,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralAttacks/ChargedPunchAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/PunchAttackVFX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/ShieldVFX.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6918f29e7fd34dfcbfd1ae203995ddd924000/d4/de86800b/ParticleSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/AttackController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerCameraManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralAttacks/AttackControllerBase.cs" root0="FORCE_HIGHLIGHTING" />
@@ -132,7 +133,8 @@
       <workItem from="1644182949524" duration="2632000" />
       <workItem from="1644189597358" duration="55000" />
       <workItem from="1644371153568" duration="4094000" />
-      <workItem from="1644427154593" duration="2495000" />
+      <workItem from="1644427154593" duration="7513000" />
+      <workItem from="1644602761956" duration="1001000" />
     </task>
     <servers />
   </component>
