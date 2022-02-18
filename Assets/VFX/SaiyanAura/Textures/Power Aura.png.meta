@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: ef683da0f0d275744b7a3c16ba1d3805
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -44422012817394762
+    second: Power Aura_0
+  - first:
+      213: -7365537872820187862
+    second: Power Aura_1
+  - first:
+      213: -3345896472661675635
+    second: Power Aura_2
+  - first:
+      213: -8559246861669460356
+    second: Power Aura_3
+  - first:
+      213: -7226127036198250158
+    second: Power Aura_4
+  - first:
+      213: -6251555384100377445
+    second: Power Aura_5
+  - first:
+      213: -2900412980046808067
+    second: Power Aura_6
+  - first:
+      213: -2703329235423494821
+    second: Power Aura_7
+  - first:
+      213: 1641189926350825590
+    second: Power Aura_8
+  - first:
+      213: -8827133629080702681
+    second: Power Aura_9
+  - first:
+      213: 4090843128105881314
+    second: Power Aura_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Power Aura_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 499
+        width: 232
+        height: 320
+      alignment: 9
+      pivot: {x: 0.4959081, y: 0.13510914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3bfc92a6e226ff0800000000000000
+      internalID: -44422012817394762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Aura_1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 499
+        width: 235
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dcdd6345a58c990800000000000000
+      internalID: -7365537872820187862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Aura_2
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 495
+        width: 262
+        height: 343
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81b4cba2ecf091d0800000000000000
+      internalID: -3345896472661675635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Aura_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 259
+        width: 215
+        height: 204
+      alignment: 9
+      pivot: {x: 0.5176617, y: 0.1277216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7690510452773980800000000000000
+      internalID: -8559246861669460356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Aura_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 259
+        width: 209
+        height: 225
+      alignment: 9
+      pivot: {x: 0.49091554, y: 0.16246758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2599e890fb3a7bb90800000000000000
+      internalID: -7226127036198250158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Aura_5
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 255
+        width: 181
+        height: 211
+      alignment: 9
+      pivot: {x: 0.48426542, y: 0.11757642}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c240510830e39a0800000000000000
+      internalID: -6251555384100377445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Aura_6
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 251
+        width: 194
+        height: 201
+      alignment: 9
+      pivot: {x: 0.4951065, y: 0.15050283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbb06ef2c9afb7d0800000000000000
+      internalID: -2900412980046808067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Aura_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 215
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d77ab1268db7ad0800000000000000
+      internalID: -2703329235423494821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Aura_8
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 8
+        width: 209
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6782719ea8da6c610800000000000000
+      internalID: 1641189926350825590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Aura_9
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 4
+        width: 181
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7217db58bb8bf7580800000000000000
+      internalID: -8827133629080702681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Power Aura_10
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 0
+        width: 194
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee499a962895c830800000000000000
+      internalID: 4090843128105881314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 80e44881da95df7458b5052e62dbac32
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
