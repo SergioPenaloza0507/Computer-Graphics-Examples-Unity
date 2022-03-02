@@ -17,13 +17,28 @@ public class DummyTurret : MonoBehaviour
     [SerializeField] private float shootForce = 1000;
 
     private float fireTimer;
-    private Transform target;
+    [SerializeField]private Transform target;
 
     private void Fire()
     {
         var position = muzzle.position;
-        Rigidbody rb = Instantiate(prefab, position, Quaternion.Euler(Random.insideUnitSphere * 180f)).GetComponent<Rigidbody>();
+        Rigidbody rb = Instantiate(prefab, position, muzzle.transform.rotation).GetComponent<Rigidbody>();
+        rb.gameObject.SetActive(true);
         rb.AddForce((target.position - position).normalized * shootForce);
+    }
+
+    private void Update()
+    {
+        if (target != null)
+        {
+            if (fireTimer > fireRate)
+            {
+                fireTimer = 0.0f;
+                Fire();
+            }
+
+            fireTimer += Time.deltaTime;
+        }
     }
     
     private void OnTriggerStay(Collider other)
