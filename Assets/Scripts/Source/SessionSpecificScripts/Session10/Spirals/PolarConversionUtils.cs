@@ -1,28 +1,11 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations;
 
-public class Spirals : MonoBehaviour
+public static class PolarConversionUtils
 {
-    private float radius, phi;
-
-    [SerializeField] private Transform target;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        UpdateArchimedean(target, Axis.Y, ref phi, ref radius);
-    }
-
-    void CartesianToPolarPlanar(ref Vector3 cartesianPosition, Axis planeNormal)
+    public static void CartesianToPolarPlanar(this ref Vector3 cartesianPosition, Axis planeNormal)
     {
         switch (planeNormal)
         {
@@ -50,7 +33,7 @@ public class Spirals : MonoBehaviour
         }
     }
 
-    void PolarToCartesianPlanar(ref Vector3 polarPosition, Axis planeNormal)
+    public static void PolarToCartesianPlanar(this ref Vector3 polarPosition, Axis planeNormal)
     {
         switch (planeNormal)
         {
@@ -76,37 +59,5 @@ public class Spirals : MonoBehaviour
                 );
                 break;
         }
-    }
-    
-    void UpdateArchimedean(Transform target, Axis planeNormal, ref float phi, ref float radius)
-    {
-        //r = aφ
-        Vector3 targetLocalVector = target.localPosition;
-        CartesianToPolarPlanar(ref targetLocalVector, planeNormal);
-        targetLocalVector.Set(phi * radius, targetLocalVector.y, phi);
-        PolarToCartesianPlanar(ref targetLocalVector, planeNormal);
-        target.localPosition = targetLocalVector;
-        phi += Time.deltaTime;
-        radius = Mathf.Clamp(radius - Time.deltaTime, 0.0f, Mathf.Infinity);
-    }
-
-    void UpdateHyperbolic()
-    {
-        
-    }
-
-    void UpdateFermat()
-    {
-        
-    }
-
-    void UpdateLituus()
-    {
-        
-    }
-
-    void UpdateLogarithmic()
-    {
-        
     }
 }
