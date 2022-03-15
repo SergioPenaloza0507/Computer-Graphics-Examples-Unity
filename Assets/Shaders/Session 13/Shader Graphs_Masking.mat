@@ -19,12 +19,44 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_1:
+        m_Texture: {fileID: 2800000, guid: fd889e03ef04f7743aa29691874b951b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_9fa3d54964e440ba9a7dc4eba16239b8:
         m_Texture: {fileID: 2800000, guid: 805f5e0e249b68c4e89cbd4cc0525c49, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_c796e6d24d4e419d98d84d5adc6a3e98:
         m_Texture: {fileID: 2800000, guid: 0bbf403690dccbd4d98f29c56795a85e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_c796e6d24d4e419d98d84d5adc6a3e98_1:
+        m_Texture: {fileID: 2800000, guid: 99188d50822b845449629d3b9564eb8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_c796e6d24d4e419d98d84d5adc6a3e98_2:
+        m_Texture: {fileID: 2800000, guid: 3939164337b93a1488e4c9780d791bd0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_c796e6d24d4e419d98d84d5adc6a3e98_3:
+        m_Texture: {fileID: 2800000, guid: 75e7979f2e49a8c4a9244816731493b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_c796e6d24d4e419d98d84d5adc6a3e98_4:
+        m_Texture: {fileID: 2800000, guid: 131e94cb59c505744889eb0c2883e701, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_c796e6d24d4e419d98d84d5adc6a3e98_5:
+        m_Texture: {fileID: 2800000, guid: 4c8ea83598bb30d478ed077f5f2fa635, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_c796e6d24d4e419d98d84d5adc6a3e98_6:
+        m_Texture: {fileID: 2800000, guid: 2153fc79cfd1d48458e5bef12541fce3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_c796e6d24d4e419d98d84d5adc6a3e98_7:
+        m_Texture: {fileID: 2800000, guid: 9a95d87e7e7b614429d0f6adc13ab2f9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -39,6 +71,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
+    m_Floats:
+    - Vector1_d05602b65909432cb658649331731bbd: 1
     m_Colors: []
   m_BuildTextureStacks: []
