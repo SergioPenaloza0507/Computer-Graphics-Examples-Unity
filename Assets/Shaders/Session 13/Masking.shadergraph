@@ -1435,9 +1435,9 @@
     "m_ShaderOutputName": "ColorB",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
     },
     "m_DefaultValue": {
         "x": 0.0,
@@ -2131,7 +2131,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "43033900331745c2bc19b6ff1dcfb431",
     "m_Id": 0,
-    "m_DisplayName": "TextureB",
+    "m_DisplayName": "AlbedoB",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3570,8 +3570,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -720.0000610351563,
-            "y": 535.0,
+            "x": -734.0000610351563,
+            "y": 582.0,
             "width": 208.0,
             "height": 350.0
         }
@@ -4479,7 +4479,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "c05644c336564e1587b884ea93fe873d",
     "m_Id": 0,
-    "m_DisplayName": "TextureA",
+    "m_DisplayName": "AlbedoA",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",

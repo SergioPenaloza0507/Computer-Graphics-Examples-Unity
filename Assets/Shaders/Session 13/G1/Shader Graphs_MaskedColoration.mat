@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Coloration Masks
-  m_Shader: {fileID: -6465566751694194690, guid: 442c70564014b84478649e5348176f9d, type: 3}
+  m_Name: Shader Graphs_MaskedColoration
+  m_Shader: {fileID: -6465566751694194690, guid: d6d8593f329986841a6d185c79459665, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,16 +19,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_819caaf48572455aab6f4f4b8a405f76:
-        m_Texture: {fileID: 2800000, guid: 6f750a4a7e30b564bbfce9d88c9f9c73, type: 3}
+    - Texture2D_0b843e3e9ec1464e95ce8b2e1f425f04:
+        m_Texture: {fileID: 2800000, guid: 4cc9a324d3513664b8d6fb40bd7b1578, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - Texture2D_a075003baeff4e33868ca2e7675b5b57:
+    - Texture2D_6e45510a41d44836adb9245c7df6ebbc:
         m_Texture: {fileID: 2800000, guid: 1c5edec2837d78648a1c7ceb9cca15e0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - Texture2D_ee2db7be4480430b8fc3527bb6c9c182:
-        m_Texture: {fileID: 2800000, guid: 4cc9a324d3513664b8d6fb40bd7b1578, type: 3}
+    - Texture2D_757e9f6d9a2a4c1fb7459f1063f04790:
+        m_Texture: {fileID: 2800000, guid: 6f750a4a7e30b564bbfce9d88c9f9c73, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -45,5 +45,5 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - Color_6212f7db70164126abb17e8908369ce6: {r: 1, g: 0, b: 0.22884703, a: 1}
+    - Color_1c6eebc1fc604924af46573adc46a172: {r: 4, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
