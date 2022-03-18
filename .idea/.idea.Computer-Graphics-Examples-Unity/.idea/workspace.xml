@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="UnityURPShader" />
         <option value="Unity URP Shader" />
+        <option value="UnityURPShader" />
       </list>
     </option>
   </component>
@@ -30,6 +30,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a0ef933b1aa54b668801ea864e4204fe13b600/72/7d46a47b/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a0ef933b1aa54b668801ea864e4204fe13b600/92/fdef3c77/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralAttacks/AttackControllerBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralAttacks/ChargedPunchAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralPurpuseIndicator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -105,7 +107,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\DiskPartition\Xexito\Programs\Unity\Editors\2020.3.16f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Sergio\Projects\Unity\Universidad\Computer-Graphics-Examples-Unity -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Sergio\Projects\Unity\Universidad\Computer-Graphics-Examples-Unity" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -172,6 +174,9 @@
       <workItem from="1647036504822" duration="5076000" />
       <workItem from="1647469498394" duration="3083000" />
       <workItem from="1647477217667" duration="137000" />
+      <workItem from="1647553310168" duration="1809000" />
+      <workItem from="1647606393833" duration="746000" />
+      <workItem from="1647607221343" duration="622000" />
     </task>
     <servers />
   </component>
