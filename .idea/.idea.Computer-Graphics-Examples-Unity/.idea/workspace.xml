@@ -36,7 +36,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerCameraManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerNotificationCenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/PunchAttackVFX.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session15/TangentSpaceVizualizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/AttackController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/ShieldVFX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.1/ShaderLibrary/Packing.hlsl" root0="SKIP_HIGHLIGHTING" />
@@ -109,7 +108,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\DiskPartition\Xexito\Programs\Unity\Editors\2020.3.16f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Sergio\Projects\Unity\Universidad\Computer-Graphics-Examples-Unity -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Sergio\Projects\Unity\Universidad\Computer-Graphics-Examples-Unity" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -183,6 +182,7 @@
       <workItem from="1647970381863" duration="1463000" />
       <workItem from="1647984232297" duration="1810000" />
       <workItem from="1648069405160" duration="3501000" />
+      <workItem from="1648686632052" duration="1280000" />
     </task>
     <servers />
   </component>
