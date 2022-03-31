@@ -1,6 +1,5 @@
 ﻿void GetMainLightData_half(half3 WorldPos, out half3 Direction, out half3 Color, out half DistanceAttenuation, out half ShadowAttenuation)
 {
-    
     #if defined(SHADERGRAPH_PREVIEW)
     Direction = half3(0.5, 0.5, 0);
     Color = 1;
