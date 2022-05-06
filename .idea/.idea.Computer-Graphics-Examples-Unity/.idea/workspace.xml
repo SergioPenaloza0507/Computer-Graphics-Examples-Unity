@@ -30,12 +30,14 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a0ef933b1aa54b668801ea864e4204fe13b600/92/fdef3c77/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralAttacks/AttackControllerBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralAttacks/ChargedPunchAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralPurpuseIndicator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerCameraManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerNotificationCenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/PunchAttackVFX.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session18/StressController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/AttackController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/ShieldVFX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.1/ShaderLibrary/Packing.hlsl" root0="SKIP_HIGHLIGHTING" />
@@ -183,6 +185,8 @@
       <workItem from="1647984232297" duration="1810000" />
       <workItem from="1648069405160" duration="3501000" />
       <workItem from="1648686632052" duration="1280000" />
+      <workItem from="1648775298729" duration="1278000" />
+      <workItem from="1651793146954" duration="6433000" />
     </task>
     <servers />
   </component>
