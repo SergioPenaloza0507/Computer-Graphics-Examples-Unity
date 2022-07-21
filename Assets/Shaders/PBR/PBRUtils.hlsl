@@ -54,12 +54,12 @@ void PBRLighting_float(LIGHT_PARAMETERS, GEOMETRY_PARAMETERS, SURFACE_PARAMETERS
     const float3 specular = numerator / denominator;
 
     const float3 reflectedEnergy = fresnel;
-    float3 refractedEnergy = 1.0f - reflectedEnergy;
+    float3 diffusedEnergy = 1.0f - reflectedEnergy;
 
-    refractedEnergy *= 1.0 - metallic;
+    diffusedEnergy *= 1.0 - metallic;
 
     const float normalDotLightDirection = max(dot(normal, lightDirection), 0.0f);
-    const float reflectanceResult = (refractedEnergy * albedo / PI + specular) * radiance * normalDotLightDirection;
+    const float3 reflectanceResult = (diffusedEnergy * albedo / PI + specular) * radiance * normalDotLightDirection;
 
     const float3 ambient = ambientLighting * albedo * ambientOcclusion;
     shadedFragment = ambient + reflectanceResult;

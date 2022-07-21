@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e19bda81-c5c9-4d5b-9172-5f722d3648fa" name="Default Changelist" comment="" />
+    <list default="true" id="e19bda81-c5c9-4d5b-9172-5f722d3648fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Computer-Graphics-Examples-Unity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Computer-Graphics-Examples-Unity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Last PBR/PBR Showcase.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Last PBR/PBR Showcase.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/PBR/PBRShaded.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/PBR/PBRShaded.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/PBR/PBRUtils.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/PBR/PBRUtils.hlsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/PBR/Shader Graphs_PBRShaded.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/PBR/Shader Graphs_PBRShaded.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Session 16/G2/Lighting Functions.shadergraph" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Session 16/G2/Lighting Functions.shadergraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Session 16/G2/Shader Graphs_Lighting Functions.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Session 16/G2/Shader Graphs_Lighting Functions.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,18 +39,18 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a0ef933b1aa54b668801ea864e4204fe13b600/92/fdef3c77/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralAttacks/AttackControllerBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralAttacks/ChargedPunchAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/GeneralPurpuseIndicator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerCameraManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/GameplayUtils/MOBAPlayer/MOBAPlayerNotificationCenter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/PunchAttackVFX.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session18/StressController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/AttackController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Source/SessionSpecificScripts/Session4/ShieldVFX.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/PBR/PBRShading.hlsl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.1/ShaderLibrary/Packing.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.1/ShaderLibrary/SpaceTransforms.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.1/ShaderLibrary/Lighting.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.1/ShaderLibrary/ShaderVariablesFunctions.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.1/ShaderLibrary/UnityInput.hlsl" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -109,8 +118,16 @@
   }
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds/Profiling Test PC\CG-2022-1.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\DiskPartition\Xexito\Repos\Unity\Computer-Graphics-Examples-Unity\Builds\Profiling Test PC" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\DiskPartition\Xexito\Programs\Unity\Editors\2020.3.16f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Sergio\Projects\Unity\Universidad\Computer-Graphics-Examples-Unity -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Sergio\Projects\Unity\Universidad\Computer-Graphics-Examples-Unity" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -187,6 +204,8 @@
       <workItem from="1648686632052" duration="1280000" />
       <workItem from="1648775298729" duration="1278000" />
       <workItem from="1651793146954" duration="6433000" />
+      <workItem from="1651877632031" duration="926000" />
+      <workItem from="1652301919598" duration="4518000" />
     </task>
     <servers />
   </component>
